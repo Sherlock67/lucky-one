@@ -1,0 +1,20 @@
+[
+    {
+        "id" : 1,
+        "price":200,
+        "name":"Gulab Jamun",
+        "img":"https://img.freepik.com/free-photo/indian-sweet-food-gulab-jamun-served-round-ceramic-bowl_466689-71958.jpg?t=st=1648227190~exp=1648227790~hmac=233c30c3f527ca92db2a0b79260cfb2f8ef0d0f4295dd22c88497dce23a0be00&w=740",
+        "ratings": 4,
+        "stock": 20
+    },
+    {
+        "id" : 2,
+        "price":400,
+        "name":"Laddu",
+        "img":"https://img.freepik.com/free-photo/indian-sweet-food-gulab-jamun-served-round-ceramic-bowl_466689-71958.jpg?t=st=1648227190~exp=1648227790~hmac=233c30c3f527ca92db2a0b79260cfb2f8ef0d0f4295dd22c88497dce23a0be00&w=740",
+        "ratings": 4,
+        "stock": 20
+    }
+
+
+]
