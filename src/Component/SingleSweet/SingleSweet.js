@@ -3,10 +3,10 @@ import './SingleSweet.css'
 const SingleSweet = (props) => {
     const {name,img,price,ratings,stock} =props.product; 
     return (
-        <div className='product'>
-        <div className='product-info'>
+        <div className='sweet'>
+        <div className='sweet-info'>
         <img src={img} alt=""></img>
-        <p className='product-name'> {name}</p>
+        <p className='sweet-name'> {name}</p>
         <p><small>Price : {price}</small></p>
         <p><small>Seller : {stock}</small></p>
         <p><small>Rating : {ratings}</small></p>

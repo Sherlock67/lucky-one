@@ -1,16 +1,24 @@
 import React, { useEffect, useState } from 'react';
+import SingleSweet from '../SingleSweet/SingleSweet';
 import './SweetShop.css'
 const SweetShop = () => {
     const [products,setProducts] = useState([]);
     useEffect(()=>{
         fetch("sweets.json")
         .then(res=>res.json())
-        .then(data=>console.log(data));
+        .then(data=>setProducts(data));
     },[]);
     return (
-        <div>
+        <div className='shop-container'>
+        <div className='products-container'>
+            {
+                products.map(product=> <SingleSweet key={product.id} product={product}></SingleSweet>)
+            }
+        </div>
+        <div className='cart-container'>
            
         </div>
+    </div>
     );
 };
 
