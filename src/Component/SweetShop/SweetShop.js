@@ -3,6 +3,7 @@ import Cart from '../Cart/Cart';
 import SingleSweet from '../SingleSweet/SingleSweet';
 import './SweetShop.css'
 const SweetShop = () => {
+    const [bestProduct , setBestProduct] = useState({});
     const [products,setProducts] = useState([]);
     const [cart,setCart] = useState([]);
     useEffect(()=>{
@@ -14,6 +15,14 @@ const SweetShop = () => {
         const newCart = [...cart,product];
         setCart(newCart);
     }
+    const ChooseBestForMe = (props) =>{
+        const {id} = props;
+        const randomProduct = Math.floor(Math.random(id)*cart.length);
+        console.log(randomProduct);
+        setBestProduct(cart[randomProduct]);
+        console.log(cart[randomProduct]);
+        
+    }
     return (
         <div className='shop-container'>
         <div className='products-container'>
@@ -22,7 +31,7 @@ const SweetShop = () => {
             }
         </div>
         <div className='cart-container'>
-            <Cart cart={cart}></Cart>
+            <Cart ChooseBestForMe={ChooseBestForMe} bestProduct={bestProduct} cart={cart}></Cart>
         </div>
     </div>
     );
