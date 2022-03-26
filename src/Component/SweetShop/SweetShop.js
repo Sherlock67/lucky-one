@@ -19,14 +19,17 @@ const SweetShop = () => {
   const ChooseBestForMe = (props) => {
     const { id } = props;
     const randomProduct = Math.floor(Math.random(id) * cart.length);
-    console.log(randomProduct);
+//    console.log(randomProduct);
     setBestProduct(cart[randomProduct]);
   };
   const Remove = () =>{
-
+    setCart([]);
+    setBestProduct({});
   }
   return (
+
     <div>
+      <h4 className="shop-name">Sweet Shop</h4>
       <div className="shop-container">
         <div className="products-container">
           {products.map((product) => (
@@ -38,10 +41,10 @@ const SweetShop = () => {
           ))}
         </div>
         <div className="cart-container">
-          <Cart ChooseBestForMe={ChooseBestForMe} RemoveAll={Remove} cart={cart}></Cart>
+          <Cart ChooseBestForMe={ChooseBestForMe} Remove={Remove} cart={cart}></Cart>
         </div>
       </div>
-      <div className="bestproduct">
+      <div >
         <BestProduct bestProduct={bestProduct}></BestProduct>
       </div>
     </div>

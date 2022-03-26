@@ -3,8 +3,8 @@ import './BestProduct.css'
 const BestProduct = (props) => {
     const {bestProduct} = props;
     return (
-        <div className='cart'>
-            <p>The Best Product For you is : {bestProduct.name}</p>
+        <div className='bestproduct' >
+            <p>The Best Product For you is : <span className='best-product-name'>{bestProduct.name}</span> </p>
         </div>
     );
 };

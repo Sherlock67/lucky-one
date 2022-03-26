@@ -7,3 +7,8 @@
     grid-template-columns: repeat(3,1fr);
     gap: 5px;
 }
+.shop-name{
+    text-align: center;
+    color: sienna ;
+    font-size: 30px;
+}
