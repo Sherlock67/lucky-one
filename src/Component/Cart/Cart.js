@@ -4,7 +4,8 @@ import './Cart.css'
 import { faTrash } from '@fortawesome/free-solid-svg-icons';
 const Cart = (props) => {
     //const {name,img} = props;
-    const {cart,bestProduct} = props;
+    
+    const {cart} = props;
     console.log(cart);
     return (
         <div className='cart'>
@@ -21,13 +22,8 @@ const Cart = (props) => {
                 <button onClick={props.ChooseBestForMe} className='button-best'>Choose Best For Me</button>
                 <button className='button-choose-again'>Choose Again</button>  
            </div>
-           <div className='best-product'>
-               <h4>The Best Product</h4>
-           {
-              cart.map(bestProduct=> <div>{bestProduct.name}</div> )
-              
-           }
-           </div>
+          
+           
         
         </div>
     );
