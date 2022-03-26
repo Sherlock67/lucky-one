@@ -3,6 +3,7 @@ import SingleSweet from '../SingleSweet/SingleSweet';
 import './SweetShop.css'
 const SweetShop = () => {
     const [products,setProducts] = useState([]);
+    const [cart,setCart] = useState([]);
     useEffect(()=>{
         fetch("sweets.json")
         .then(res=>res.json())
