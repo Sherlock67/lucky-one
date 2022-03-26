@@ -1,7 +1,7 @@
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 import React from "react";
 import "./Cart.css";
-// import { faTrash } from "@fortawesome/free-solid-svg-icons";
+
 const Cart = (props) => {
   //const {name,img} = props;
 
@@ -11,9 +11,15 @@ const Cart = (props) => {
     <div className="cart">
       <h4>Cart Products</h4>
       {cart.map((cartProducts) => (
-        <div className="cart-product">
-          <img className="img-round" src={cartProducts.img} alt=""></img>
-          <p>{cartProducts.name}</p>
+        <div className="d-flex mb-3 px-2 justify-content-between align-items-center">
+          <div className="d-flex">
+          <img className="me-2 img-round" src={cartProducts.img} alt=""></img>
+          <p className="pt-3">{cartProducts.name}</p>
+          </div>
+          <div className="me-2">
+            <i class="fa-solid fa-trash "></i>
+          </div>
+          
         </div>
       ))}
       <div className="button-grp">
