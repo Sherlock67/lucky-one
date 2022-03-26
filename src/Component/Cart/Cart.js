@@ -6,7 +6,7 @@ const Cart = (props) => {
     //const {name,img} = props;
     
     const {cart} = props;
-    console.log(cart);
+  
     return (
         <div className='cart'>
         <h4>Cart Products</h4>

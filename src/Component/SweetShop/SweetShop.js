@@ -19,7 +19,7 @@ const SweetShop = () => {
   const ChooseBestForMe = (props) => {
     const { id } = props;
     const randomProduct = Math.floor(Math.random(id) * cart.length);
-//    console.log(randomProduct);
+
     setBestProduct(cart[randomProduct]);
   };
   const Remove = () =>{

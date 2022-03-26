@@ -9,17 +9,65 @@
     },
     {
         "id" : 2,
-        "price":400,
-        "name":"Laddu",
-        "img":"https://img.freepik.com/free-photo/indian-sweet-food-gulab-jamun-served-round-ceramic-bowl_466689-71958.jpg?t=st=1648227190~exp=1648227790~hmac=233c30c3f527ca92db2a0b79260cfb2f8ef0d0f4295dd22c88497dce23a0be00&w=740",
+        "price":100,
+        "name":"Rasgolla",
+        "img":"https://img.freepik.com/free-photo/rasgulla-rosogulla-indian-sweet-made-from-khoya-soft-spongy-earthen-bowl-yellow-napkin-brown-background_466689-72072.jpg?t=st=1648301875~exp=1648302475~hmac=61c4c726b5169b86d60ea1f9e7744ecc6d212cdb470162361091cddf4fc128ef&w=740",
         "ratings": 4,
         "stock": 20
     },
     {
         "id" : 3,
-        "price":400,
-        "name":"Laddu",
-        "img":"https://img.freepik.com/free-photo/indian-sweet-food-gulab-jamun-served-round-ceramic-bowl_466689-71958.jpg?t=st=1648227190~exp=1648227790~hmac=233c30c3f527ca92db2a0b79260cfb2f8ef0d0f4295dd22c88497dce23a0be00&w=740",
+        "price":300,
+        "name":"Motichoor",
+        "img":"https://img.freepik.com/free-photo/indian-sweet-motichoor-laddoo-bundi-laddu-made-gram-flour-very-small-balls-boondis-which-are-deep-fried-soaked-sugar-syrup-before-making-balls_466689-71965.jpg?t=st=1648301875~exp=1648302475~hmac=302dee387f7144e8248c95c14ff5711ce87136a4e4337115cc3a84bc32ca7f7c&w=740",
+        "ratings": 4,
+        "stock": 20
+    },
+    {
+        "id" : 4,
+        "price":1000,
+        "name":"Apple Strudle",
+        "img":"https://img.freepik.com/free-photo/traditional-apple-strudel-wooden-board-close-up_93675-135005.jpg?t=st=1648302142~exp=1648302742~hmac=62a50a523989dd4e8931bd8a14703d2f0be70aa30fa05eac84f14d079ba6dd0e&w=740",
+        "ratings": 4,
+        "stock": 20
+    },
+    {
+        "id" : 5,
+        "price":500,
+        "name":"CupCake",
+        "img":"https://img.freepik.com/free-photo/front-view-view-tasty-cupcake-with-strawberry-cream_23-2148718764.jpg?t=st=1648302217~exp=1648302817~hmac=83699cce0df4ed85dc637dc18eaf3a90a09f6185c24bab2cdd3a3332d67f992f&w=740",
+        "ratings": 4,
+        "stock": 20
+    },
+    {
+        "id" : 6,
+        "price":900,
+        "name":"Cookies",
+        "img":"https://img.freepik.com/free-photo/closeup-shot-chocolate-chip-cookie-isolated_181624-21963.jpg?t=st=1648302217~exp=1648302817~hmac=b08d2d7acff0ce81b07ab1ff2fd829e68af091b57b74d209070f6d2ecdb8d2a1&w=740",
+        "ratings": 4,
+        "stock": 20
+    },
+    {
+        "id" : 7,
+        "price":900,
+        "name":"Badam Barfi",
+        "img":"https://img.freepik.com/free-photo/indian-sweet-food-badam-barfi-katli-also-known-as-almond-sweet-burfi-mithai-barfee_466689-71876.jpg?t=st=1648302334~exp=1648302934~hmac=441676e83654e0cd6238038ebc500b99cb72367559d7bc5d3bed819aae162030&w=740",
+        "ratings": 4,
+        "stock": 20
+    },
+    {
+        "id" : 8,
+        "price":900,
+        "name":"Jilapi",
+        "img":"https://img.freepik.com/free-photo/stock-photo-jalebi-jilbi-imarati-indian-sweet-food-fried-pure-ghee-selective-focus_466689-71704.jpg?t=st=1648302334~exp=1648302934~hmac=2778c8486c89697d21ff0900d105ffb04595aebb5a715ab7aab464095cde821c&w=740",
+        "ratings": 4,
+        "stock": 20
+    },
+    {
+        "id" : 9,
+        "price":900,
+        "name":"Jilapi",
+        "img":"https://img.freepik.com/free-photo/stock-photo-jalebi-jilbi-imarati-indian-sweet-food-fried-pure-ghee-selective-focus_466689-71704.jpg?t=st=1648302334~exp=1648302934~hmac=2778c8486c89697d21ff0900d105ffb04595aebb5a715ab7aab464095cde821c&w=740",
         "ratings": 4,
         "stock": 20
     }
