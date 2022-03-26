@@ -14,9 +14,9 @@ const SingleSweet = (props) => {
             <p><small>Product in Stock : {stock}</small></p>
             <p><small>Rating : {ratings}</small></p>
         </div>
-         <button className='btn-cart'>
+         <button onClick={()=>props.AddToCart(props.product)} className='btn-cart'>
             <p className='btn-text'>Add to cart</p>
-            <FontAwesomeIcon icon={faShoppingCart}></FontAwesomeIcon>
+            <FontAwesomeIcon  icon={faShoppingCart}></FontAwesomeIcon>
         </button> 
        
 
