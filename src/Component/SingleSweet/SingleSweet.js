@@ -4,7 +4,6 @@ import "./SingleSweet.css";
 import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 const SingleSweet = (props) => {
   const { name, img, price, ratings, stock } = props.product;
-
   return (
     <div className="sweet">
       <div className="sweet-info">
