@@ -19,7 +19,7 @@ const SingleSweet = (props) => {
         <div className=" text-center">
           <button id={id} className="p-0 btn-cart" onClick={() => props.AddToCart(props.product)}>
             <p className='p-2'>
-              Add to Choose &nbsp;
+              Add to Cart &nbsp;
               <i className="fa-solid fa-cart-plus"></i>
             </p>
 
