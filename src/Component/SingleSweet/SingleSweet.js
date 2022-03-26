@@ -1,31 +1,31 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 import React from "react";
 import "./SingleSweet.css";
-import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
+
 const SingleSweet = (props) => {
-  const { name, img, price, ratings, stock } = props.product;
+  const { id, name, img, price, ratings, stock } = props.product;
   return (
-    <div className="sweet">
-      <div className="sweet-info">
-        <img src={img} alt=""></img>
-        <p className="sweet-name"> {name}</p>
-        <p>
-          <small>Price : {price}</small>
-        </p>
-        <p>
-          <small>Product in Stock : {stock}</small>
-        </p>
-        <p>
-          <small>Rating : {ratings}</small>
-        </p>
+  
+    <div className="col p-2">
+      <div className="card h-100">
+        <img src={img} className="img-fluid card-img-top p-1" alt="" />
+        <div className="card-body text-start">
+          <h5 className="card-title title ">{name}</h5>
+          <h5 className="card-title price">Price: ${price}</h5>
+          <h5 className="card-title price">Rating: {ratings}</h5>
+          <h5 className="card-title price">Stock: {stock}</h5>
+        </div>
+
+        <div className=" text-center">
+          <button id={id} className="p-0 btn-cart" onClick={() => props.AddToCart(props.product)}>
+            <p className='p-2'>
+              Add to Choose &nbsp;
+              <i className="fa-solid fa-cart-plus"></i>
+            </p>
+
+          </button>
+        </div>
       </div>
-      <button
-        onClick={() => props.AddToCart(props.product)}
-        className="btn-cart"
-      >
-        <p className="btn-text">Add to cart</p>
-        <FontAwesomeIcon icon={faShoppingCart}></FontAwesomeIcon>
-      </button>
     </div>
   );
 };

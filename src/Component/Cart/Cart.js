@@ -1,7 +1,7 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import "./Cart.css";
-import { faTrash } from "@fortawesome/free-solid-svg-icons";
+// import { faTrash } from "@fortawesome/free-solid-svg-icons";
 const Cart = (props) => {
   //const {name,img} = props;
 
@@ -14,7 +14,6 @@ const Cart = (props) => {
         <div className="cart-product">
           <img className="img-round" src={cartProducts.img} alt=""></img>
           <p>{cartProducts.name}</p>
-          <FontAwesomeIcon className="icons" icon={faTrash}></FontAwesomeIcon>
         </div>
       ))}
       <div className="button-grp">

@@ -6,8 +6,8 @@ import SweetShop from './Component/SweetShop/SweetShop';
 function App() {
   return (
     <div >
-      <SweetShop></SweetShop>
-      <Learning></Learning>
+      <SweetShop />
+      <Learning />
     </div>
   );
 }
