@@ -27,6 +27,7 @@ const SweetShop = () => {
     const { id } = props;
     const randomProduct = Math.floor(Math.random(id) * cart.length);
     setBestProduct(cart[randomProduct]);
+    setCart(cart[randomProduct])
   };
   const Remove = () => {
     setCart([]);
