@@ -19,7 +19,11 @@ const Cart = (props) => {
             
             )  
            }
-            
+           <div className='button-grp'>
+                <button className='button-best'>Choose Best For Me</button>
+                <button className='button-choose-again'>Choose Again</button>  
+           </div>
+       
         
         </div>
     );
