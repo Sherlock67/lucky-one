@@ -10,10 +10,10 @@ const SingleSweet = (props) => {
       <div className="card h-100">
         <img src={img} className="img-fluid card-img-top p-1" alt="" />
         <div className="card-body text-start">
-          <h5 className="card-title title ">{name}</h5>
-          <h5 className="card-title price">Price: ${price}</h5>
-          <h5 className="card-title price">Rating: {ratings}</h5>
-          <h5 className="card-title price">Stock: {stock}</h5>
+          <h5 className="card-title  ">{name}</h5>
+          <h5 className="card-title ">Price: ${price}</h5>
+          <h5 className="card-title ">Rating: {ratings}</h5>
+          <h5 className="card-title">Stock: {stock}</h5>
         </div>
 
         <div className=" text-center">
